@@ -15,6 +15,16 @@
     gap: 20px;
     align-items: center;
 }
+.logoynombre{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.enlacesIzq{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
 .logo{
     width: 50px;
 }
@@ -22,7 +32,7 @@
     font-weight: bold;
     font-size: larger;
 }
-.enlacesIzq{
+.enlacesIzq a{
     text-decoration: none;
     color: black;
     background-color: white;
@@ -88,5 +98,7 @@
     background-color: white;
   }
 
-  
+  @media (min-width: 1440px) {
+     
+  }
 

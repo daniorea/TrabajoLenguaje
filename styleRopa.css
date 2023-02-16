@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    padding: 12px;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.headerIzq{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.logo{
+    width: 50px;
+}
+.nombre{
+    font-weight: bold;
+    font-size: larger;
+}
+.enlacesIzq{
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    padding: 7px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: rgb(193, 189, 189);
+}
+.headerDer{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.enlaceLogIn{
+    text-decoration: none;
+    color: black;
+    padding: 7px;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: white;
+}
+.enlaceRegister{
+    text-decoration: none;
+    color: white;
+    padding: 7px;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: black;
+}

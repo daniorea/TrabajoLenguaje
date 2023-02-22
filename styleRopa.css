@@ -159,6 +159,14 @@
     background-color: white;
 }
 
+/*CSS de la seccion 2 (Imagen1) */
+.seccion2{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+ 
  
  /*MEDIA QUERYS*/
  

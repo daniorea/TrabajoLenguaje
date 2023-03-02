@@ -227,6 +227,46 @@
     color: rgb(97, 97, 97);
 }
 
+/*CSS de la seccion 6 (Call to action fall) */
+.seccion6{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    padding: 40px;
+    background-color: rgb(183, 182, 182);
+    justify-content: center;
+    text-align: center;
+}
+.enlaces6{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+.seccion6 p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.enlaces6 a:first-of-type{
+    display: flex;
+    text-decoration: none;
+    color: blue;
+    padding: 7px;
+    border: 2px solid blue;
+    border-radius: 5px;
+    background-color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.enlaces6 a:nth-of-type(2){
+    display: flex;
+    text-decoration: none;
+    color: white;
+    padding: 7px;
+    border: 2px solid blue;
+    border-radius: 5px;
+    background-color: blue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
 
  /*MEDIA QUERYS*/
  
@@ -266,6 +306,16 @@
         display: flex;
         flex-direction: row;
     } 
+    
+
+
+/* Cambios para seccion6 (Call to action final) */
+.seccion6{
+    display: flex;
+    align-items: flex-start;
+}
+
+
  }
  
  /*MEDIA QUERY PARA DESKTOP*/
@@ -299,6 +349,17 @@
      .contTarjetas1y2, .tarjetas{
         display: flex;
         flex-direction: row;
-    }  
-  }
+        
+    } 
+    /* Cambios para seccion6 (Call to action final) */
+    .seccion6{
+        display: flex;
+        flex-direction: row;
+    }
+    .enlaces6{
+        display: flex;
+        flex-direction: row;
+    }
+  } 
+  
 

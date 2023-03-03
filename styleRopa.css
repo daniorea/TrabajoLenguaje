@@ -226,7 +226,91 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: rgb(97, 97, 97);
 }
+/*CSS de la seccion 4 (Imagen2) */
+.seccion4{
+    padding: 50px;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    gap: 20px;
+    background-color: rgb(200, 222, 242);
+}
+.imagen4 img{
+    width: 100%;
+    height: auto;
+} 
+.texto4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    gap: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.texto4 p{
+    color: rgb(97, 97, 97);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
 
+
+
+
+/*CSS de la seccion 5 (tarjetas) */
+.seccion5{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.texto5{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 30px;
+}
+.texto5 h2, .texto5 p, .seccion5 h3{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.texto5 p{
+    color: rgb(97, 97, 97);
+}
+.tarjetas5{
+    gap: 20px;
+    padding: 20px;
+    width: 90%;
+    overflow-x: scroll;
+    white-space: nowrap;
+}
+.tarjet1, .tarjet2, .tarjet3{
+    display: inline-block;
+    width: 500px;
+    box-shadow: 0px 5px 8px -5px rgba(0,0,0,0.75);
+}
+.tarjet1 div, .tarjet2 div, .tarjet3 div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    padding: 20px;
+    
+}
+.tarjetas5 img{
+    width: 100%;
+}
+.seccion5 a{
+    display: flex;
+    text-decoration: none;
+    color: rgb(90, 127, 221);
+    padding: 7px;
+    border: 2px solid rgb(90, 127, 221);
+    border-radius: 5px;
+    background-color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
 /*CSS de la seccion 6 (Call to action fall) */
 .seccion6{
     display: flex;

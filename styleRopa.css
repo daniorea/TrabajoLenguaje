@@ -79,12 +79,10 @@
 
 
 
-
-
 /*CSS DEL HERO*/
 .hero {
-    position: relative; /* establecer posición relativa */
-  }
+     position: relative; /* establecer posición relativa */
+}
   
   .fondovertical {
     width: 100%;
@@ -100,12 +98,12 @@
     left: 50%; /* mover el elemento hacia la derecha la mitad de su anchura */
     transform: translate(-50%, -50%); /* centrar el elemento */
     display: flex;
-    gap: 30px;
+    gap: 10px;
     flex-direction: column;
     align-items: center;
   }
   .TituloSuperpuesto h1{
-    font-size: 25px;
+    font-size: 150%;
     font-family: 'Cinzel', serif;
     color: black;
   }
@@ -113,16 +111,17 @@
     font-size: 15px;
     text-decoration: none;
     font-family: 'Cinzel', serif;
-    color: white;
+    color: black;
     padding: 11px;
     border: 2px solid black;
     border-radius: 10px;
-    background-color: black;
+    background-color: white;
   }
+
+
 
  
  /*CSS de la seccion 1 (ventajas) */
- 
 .seccion1, .PrimeroSec1, .SegundoSec1{
     display: flex;
     flex-direction: column;
@@ -159,7 +158,9 @@
     background-color: white;
 }
 
- 
+
+
+
 /*CSS de la seccion 2 (Imagen1) */
 .seccion2{
     padding: 50px;
@@ -172,6 +173,7 @@
 .imagen2 img{
     width: 100%;
     height: auto;
+    border-radius: 3%;
 } 
 .texto2{
     display: flex;
@@ -191,8 +193,9 @@
 }
 
 
-/*CSS de la seccion 3 (Caracteristicas) */
 
+
+/*CSS de la seccion 3 (Caracteristicas) */
  .seccion3{
     display: flex;
     flex-direction: column;
@@ -226,6 +229,10 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: rgb(97, 97, 97);
 }
+
+
+
+
 /*CSS de la seccion 4 (Imagen2) */
 .seccion4{
     padding: 50px;
@@ -238,6 +245,7 @@
 .imagen4 img{
     width: 100%;
     height: auto;
+    border-radius: 3%;
 } 
 .texto4{
     display: flex;
@@ -296,7 +304,6 @@
     align-items: center;
     gap: 15px;
     padding: 20px;
-    
 }
 .tarjetas5 img{
     width: 100%;
@@ -311,6 +318,8 @@
     background-color: white;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+
+
 
 
 /*CSS de la seccion 6 (Call to action fall) */
@@ -355,8 +364,9 @@
 }
 
 
-/*CSS del footer */
 
+
+/*CSS del footer */
 .footer{
     display: flex;
     flex-direction: column;
@@ -398,7 +408,6 @@
     color: white;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-
 .footer2{
     display: flex;
     flex-direction: column;
@@ -411,7 +420,6 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
-    
     gap: 2px;
 }
 .redes a{
@@ -423,8 +431,6 @@
     width: 100%;
     height: 100%;
 }
-
-
 .textoF2{
     display: flex;
     flex-direction: row;
@@ -434,14 +440,15 @@
 .textoF2 p{
     color: white;
 }
-
 .textoF2 img{
     width: 3%;
 }
 
 
 
- /*MEDIA QUERYS*/
+ 
+
+/*MEDIA QUERYS*/
  
  /*MEDIA QUERY PARA TABLET*/
  @media (min-width: 834px){
@@ -480,18 +487,22 @@
         display: flex;
         flex-direction: row;
     } 
+
     /* Cambios para seccion4 (imagen2) */
     .seccion4{
         padding: 70px;
         gap: 50px;
     }
     
-
-
     /* Cambios para seccion6 (Call to action final) */
     .seccion6{
         display: flex;
         align-items: flex-start;
+        text-align: left;
+    }
+    .enlaces6{
+        display: flex;
+        flex-direction: row;
     }
 
     /* Cambios para el footer*/
@@ -524,6 +535,7 @@
      .imgbur{
         display: none;
      }
+
      /* Cambios para seccion2 (imagen1) */
      .seccion2{
         display: flex;
@@ -534,12 +546,9 @@
      }
 
      /* Cambios para seccion3 (caracteristicas) */
-    
-    
      .contTarjetas1y2, .tarjetas{
         display: flex;
         flex-direction: row;
-        
     } 
     /* Cambios para seccion6 (Call to action final) */
     .seccion6{
@@ -562,7 +571,6 @@
      }
 
      /* Cambios para el footer*/
-
      .footer1{
         display: flex;
         flex-direction: row;
